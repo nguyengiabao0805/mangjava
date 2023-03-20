@@ -23,7 +23,7 @@ public class Mang {
 	void inmang() {
 		System.out.println("in mang");
 		for(int i = 0; i < a.length; i++) {
-			System.out.print(a[i]+" ");
+			System.out.print(a[i]+" ")
 		}
 	}
 	void sapxep() {
