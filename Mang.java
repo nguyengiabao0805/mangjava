@@ -70,7 +70,13 @@ public class Mang {
 		
 		a=b;
 	}
-	
+	public static void updateArray( int oldValue, int newValue) {
+	    for(int i = 0; i < a.length; i++) {
+	        if(a[i] == oldValue) {
+	            ar[i] = newValue;
+	        }
+	    }
+	}
 	public static void main(String[] args) {
 		Mang c=new Mang();
 		c.taomang();
