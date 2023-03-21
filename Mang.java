@@ -23,12 +23,12 @@ public class Mang {
 	void inmang() {
 		System.out.println("in mang");
 		for(int i = 0; i < a.length; i++) {
-			System.out.print(a[i]+" ")
+			System.out.print(a[i]+" ") // thiếu dấu chấm phẩy
 		}
 	}
 	void sapxep() {
 		System.out.println("mang sau khi duoc sap xep");
-		for(int i=0;i<a.length;i++) {
+		for(int i=0;i<a.length;i++) { //sai thuật toán
 			int min =i;
 			for(int j=0;j<a.length;j++) {
 				if(a[min]>a[j]) {
@@ -58,14 +58,14 @@ public class Mang {
 		a=b;
 	}
 	void xoamang(int x) {
-		int b=new int[a.length+1];
+		int b=new int[a.length+1]; // khai báo sai, sai cú pháp
 		
 		for(int i=0;i<x;i++) {
 			b[i]=a[i];
 			
 		}
 		for(int j=x+1;j<a.length;j++) {
-			b[j]=a[j-1];
+			b[j]=a[j-1]; // sai thuật toán
 		}
 		
 		a=b;
@@ -73,7 +73,7 @@ public class Mang {
 	public static void updateArray( int oldValue, int newValue) {
 	    for(int i = 0; i < a.length; i++) {
 	        if(a[i] == oldValue) {
-	            ar[i] = newValue;
+	            ar[i] = newValue; // sai thuật toán
 	        }
 	    }
 	}
