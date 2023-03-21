@@ -23,7 +23,7 @@ public class Mang {
 	void inmang() {
 		System.out.println("in mang");
 		for(int i = 0; i < a.length; i++) {
-			System.out.print(a[i]+" ")
+			System.out.print(a[i]+" ") // thiếu dấu chấm phẩy
 		}
 	}
 	void sapxep() {
@@ -58,7 +58,7 @@ public class Mang {
 		a=b;
 	}
 	void xoamang(int x) {
-		int b=new int[a.length+1];
+		int b=new int[a.length+1]; // sai khai báo mảng, sai cú pháp
 		
 		for(int i=0;i<x;i++) {
 			b[i]=a[i];
