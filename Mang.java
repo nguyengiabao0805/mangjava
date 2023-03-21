@@ -15,7 +15,7 @@ public class Mang {
 		for (int i = 0; i < n; i++) {
 			System.out.println("phan tu thu " + (i + 1));
 			int d=sc.nextInt();
-			a[i] = d
+			a[i] = d// thiếu dấu chấm phẩy
 		}
 
 	}
